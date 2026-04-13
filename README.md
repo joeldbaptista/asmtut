@@ -1,2 +1,3 @@
 # asmtut
-Assembly code utilised for classes and tutorial
+
+Assembly code utilised for classes and tutorials.
