@@ -1,3 +1,18 @@
+/*
+	In this example, we write a program in assembly
+	functionally similar to:
+
+	int n = 100;
+	int *a = malloc(n * sizeof *a);
+
+	for (int k=0; k < n; ++k)
+		a[k] = k + 1;
+
+	for (int k = 0; k < n; ++k)
+		printf("%d\n", a[k]);
+
+	free(a);
+*/
         .section .rodata
 fmt:    .asciz "%d\n"
 
